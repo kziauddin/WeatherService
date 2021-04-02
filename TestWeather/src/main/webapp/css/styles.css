@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color:aquamarine;
+}
+table{
+	width:400px;
+	margin:130px auto;
+	font-size:18px;
+	background:linear-gradient(to right,black,darkred,black);
+	color:white;
+	padding:10px;
+	border-radius:10px;
+}
+tr{
+	height:45px;
+}
+input{
+	font-size:18px;
+}

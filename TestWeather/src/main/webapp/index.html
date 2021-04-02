@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="css/styles.css"/>
+<title>Test Weather Service</title>
+</head>
+<body>
+<center>
+<h2><u>Test Weather Service</u></h2>
+</center>
+<table>
+   <tr>
+    <td align="right">
+     <label>City</label>
+    </td>
+    <td>
+	  <input type=text name="city" size="30" list="datalist1">
+	  <datalist id="datalist1">
+	  </datalist>
+    </td>
+   </tr>
+	<tr>
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	</tr>
+   <tr>
+    <td colspan=2 valign="top" align="center">
+        <input type="button" id="getWeather" value="Get Weather" onclick="callWeatherService(city.value)">
+    </td>
+</table>
+<table>
+  <tr>
+     <td>Day1</td>
+     <td>Day2</td>
+     <td>Day3</td>
+  </tr>
+  <tr>
+     <td>Min <br>Max</td>
+     <td>Min <br>Max</td>
+     <td>Min <br>Max</td>
+  </tr>
+  <tr>
+     <td>Advice1</td>
+     <td>Advice2</td>
+     <td>Advice3</td>
+  </tr>
+</table>  
+  
+ <!--  including external java script file -->
+  <script src="js/script.js"></script>
+  <script language="javascript">
+    init();
+  </script>
+  
+</body>
+</html>
