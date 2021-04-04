@@ -14,7 +14,6 @@ public class WeatherList {
 	@JsonProperty("dt")
 	private Date dt;
 	
-	
 	@Autowired
 	MainList main;
 	

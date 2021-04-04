@@ -15,7 +15,7 @@ public class WeatherDaoImpl implements WeatherDao {
 	public ResponseEntity<ListWeatherResponse> getWeatherData(ListWeatherRequest body) {
 		//TODO : check other input parameters and build the url
 		String url = CommonConstants.ENDPOINT + "?q=" + body.getQ() + "&appid=" + CommonConstants.API_KEY;
-		
+		url += "&units=metric";
 		if (body.getCnt() != 0) {
 			url += "&cnt=" + body.getCnt();
 		}

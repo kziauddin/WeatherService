@@ -15,7 +15,7 @@
      <label>City</label>
     </td>
     <td>
-	  <input type=text name="city" size="30" list="datalist1">
+	  <input type=text name="city" id="city" size="30" list="datalist1">
 	  <datalist id="datalist1">
 	  </datalist>
     </td>
@@ -26,26 +26,52 @@
 	</tr>
    <tr>
     <td colspan=2 valign="top" align="center">
-        <input type="button" id="getWeather" value="Get Weather" onclick="callWeatherService(city.value)">
+        <input type="button" id="getWeather" value="Get Weather" onclick="callWeatherService(showinPage)">
+        &nbsp;&nbsp;&nbsp;
+        <input type="button" value="Clear" onclick="document.getElementById('city').value='';">
     </td>
 </table>
-<table>
+<h2 align="center" id="heading">Weather Details for city : </h2>
+<table class="tablecls">
   <tr>
-     <td>Day1</td>
-     <td>Day2</td>
-     <td>Day3</td>
+  	 <td bgcolor="black" width="100px"><b>Date</b></td>
+     <td><label id="date1"></label></td>
+     <td><label id="date2"></label></td>
+     <td><label id="date3"></label></td>
   </tr>
   <tr>
-     <td>Min <br>Max</td>
-     <td>Min <br>Max</td>
-     <td>Min <br>Max</td>
+     <td bgcolor="black"><b>Min. Temp</b></td>
+     <td><label id="min1"></label></td>
+     <td><label id="min2"></label></td>
+     <td><label id="min3"></label></td>
   </tr>
   <tr>
-     <td>Advice1</td>
-     <td>Advice2</td>
-     <td>Advice3</td>
+     <td bgcolor="black"><b>Max. Temp</b></td>
+     <td><label id="max1"></label></td>
+     <td><label id="max2"></label></td>
+     <td><label id="max3"></label></td>
   </tr>
+  <tr>
+     <td bgcolor="black"><b>Forecast</b></td>
+     <td><label id="forecast1"></label></td>
+     <td><label id="forecast2"></label></td>
+     <td><label id="forecast3"></label></td>
+  </tr>
+  <tr>
+     <td bgcolor="black"><b>Advice</b></td>
+     <td><label id="advice1"></label></td>
+     <td><label id="advice2"></label></td>
+     <td><label id="advice3"></label></td>
+  </tr>
+  <tr>
+     <td bgcolor="black"></td>
+     <td><image id="img1"></image></td>
+     <td><image id="img2"></image></td>
+     <td><image id="img3"></image></td>
+  </tr>
+
 </table>  
+
   
  <!--  including external java script file -->
   <script src="js/script.js"></script>

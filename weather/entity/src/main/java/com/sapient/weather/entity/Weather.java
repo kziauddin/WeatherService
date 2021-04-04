@@ -12,6 +12,8 @@ public class Weather {
 	private String description;
 	@JsonProperty("icon")
 	private String icon;
+	
+	
 	public int getId() {
 		return id;
 	}
