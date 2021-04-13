@@ -17,8 +17,6 @@ pipeline
          {
             pwsh(script: 'docker images -a')
             pwsh(script: """
-	       E:
-               cd TestJenkins/TestWeather/
                docker images -a
                docker build -t jenkins-pipeline .
                docker images -a
