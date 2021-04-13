@@ -1,6 +1,9 @@
 Manifest-Version: 1.0
-Build-Jdk-Spec: 11
-Implementation-Title: service
+Built-By: Zia
+Build-Jdk: 11.0.10
+Implementation-Title: app
 Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.sapient
+Implementation-URL: https://spring.io/projects/spring-boot/weather/app
 Created-By: Maven Integration for Eclipse
 

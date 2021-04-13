@@ -1,3 +1,3 @@
 FROM openjdk:8-jdk-alpine
 VOLUME /tmp
-ADD target/*.jar app.jar
+ADD weather/app/target/*.jar app.jar
