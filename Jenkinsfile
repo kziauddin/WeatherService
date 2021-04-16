@@ -24,7 +24,7 @@ pipeline
       {
         steps 
         {
-          //git 'https://github.com/learn-devops-fast/rps-ant.git'
+           //git 'https://github.com/learn-devops-fast/rps-ant.git'
           //sh 'ant clean compile test package war'
         }
       }
