@@ -100,10 +100,10 @@
   </build>	
 
 		<modules>
-			<module>webapp</module>
-			<module>data</module>
+			<module>entity</module>
 			<module>common</module>
 			<module>app</module>
-			<module>entity</module>
+			<module>data</module>
+			<module>webapp</module>
 		</modules>
 </project>
