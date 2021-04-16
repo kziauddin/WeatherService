@@ -13,10 +13,13 @@ pipeline
       }
       stage('Maven Build')
       {
-	pwsh(script: """
+	steps
+	{
+	  pwsh(script: """
 	       cd weather
 	       mvn package
             """)
+	}
       }
       stage('Docker Build') 
       {
