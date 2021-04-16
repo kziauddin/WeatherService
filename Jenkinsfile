@@ -20,6 +20,7 @@ pipeline
 	       mvn package
             """)
 	}
+      }
       stage('Docker Build') 
       {
          steps 
