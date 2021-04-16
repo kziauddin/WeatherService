@@ -11,6 +11,12 @@ pipeline
             echo "$GIT_BRANCH"
          }
       }
+      stage('Maven Build')
+      {
+	pwsh(script: '
+		cd weather
+		mvn package')
+      }
       stage('Docker Build') 
       {
          steps 
