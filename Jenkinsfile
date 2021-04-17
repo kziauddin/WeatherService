@@ -30,7 +30,7 @@ pipeline
                docker images -a
                docker build -t jenkins-pipeline .
                docker images -a
-	       docker container run --name jenkins-pipeline -p 8080:8080 -d myweather
+	       docker container run --name myweather -p 8083:8080 -d jenkins-pipeline
                cd ..
             """)
          }
