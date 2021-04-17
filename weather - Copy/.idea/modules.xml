@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/entity/entity.iml" filepath="$PROJECT_DIR$/entity/entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather.iml" filepath="$PROJECT_DIR$/weather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weatherservice/weatherservice.iml" filepath="$PROJECT_DIR$/weatherservice/weatherservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webapp/webapp.iml" filepath="$PROJECT_DIR$/webapp/webapp.iml" />
+    </modules>
+  </component>
+</project>

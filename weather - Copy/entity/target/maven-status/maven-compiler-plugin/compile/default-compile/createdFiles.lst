@@ -1,0 +1,14 @@
+com\sapient\weather\entity\WeatherListDetails.class
+com\sapient\weather\entity\WeatherWebResponse.class
+com\sapient\weather\entity\Coord.class
+com\sapient\weather\entity\MainList.class
+com\sapient\weather\entity\ListWeatherResponse.class
+com\sapient\weather\entity\Sys.class
+com\sapient\weather\entity\Wind.class
+com\sapient\weather\entity\Clouds.class
+com\sapient\weather\entity\list.class
+com\sapient\weather\entity\Rain.class
+com\sapient\weather\entity\Weather.class
+com\sapient\weather\entity\WeatherList.class
+com\sapient\weather\entity\City.class
+com\sapient\weather\entity\ListWeatherRequest.class
