@@ -14,13 +14,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="app" target="1.8" />
-      <module name="common" target="1.8" />
-      <module name="data" target="1.8" />
-      <module name="entity" target="1.8" />
-      <module name="weather" target="1.8" />
+      <module name="app" target="11" />
+      <module name="common" target="11" />
+      <module name="data" target="11" />
+      <module name="entity" target="11" />
+      <module name="weather" target="11" />
       <module name="weatherservice" target="11" />
-      <module name="webapp" target="1.8" />
+      <module name="webapp" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

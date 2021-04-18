@@ -10,7 +10,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>webapp</name>
   <dependencies>
-    <dependency>
+
+      <dependency>
       <groupId>com.sapient</groupId>
       <artifactId>entity</artifactId>
       <version>0.0.1-SNAPSHOT</version>
@@ -31,6 +32,13 @@
       <version>0.0.1-SNAPSHOT</version>
    </dependency>
 </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
-
- </project>
+</project>

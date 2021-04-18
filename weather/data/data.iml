@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -41,10 +41,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.5" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.5" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.5" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.5" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.4.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.4.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.4.4" level="project" />
@@ -72,8 +68,12 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-junit-jupiter:3.6.28" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.skyscreamer:jsonassert:1.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.3.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.5" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:30.1.1-jre" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
