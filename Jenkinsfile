@@ -37,6 +37,17 @@ pipeline
             """)
          }
       }
+      stage('Dynamic Project Build')
+      {
+	steps
+	  {
+ 	    pwsh(script: """
+	       cd TestWeather/src/main/webapp
+	       jar -cvf TestWeather.war * 
+            """)
+
+	  }
+      }
       stage('Dynamic Project Deploy')
       {
 	steps
