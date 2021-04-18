@@ -43,7 +43,7 @@ pipeline
 	  {
 	    pwsh(script: """
 	       cd Testweather
-	       docker build -t mywebapp
+	       docker build -t mywebapp .
 	       docker images -a 
 	       docker container run --name mywebappl -p 8080:8080 -d mywebapp
               """)
